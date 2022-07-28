@@ -106,6 +106,7 @@
 
 .welcomeText{
     width: 75%;
+
     /* background-color:coral; */
 }
 
@@ -117,7 +118,8 @@
 
 .welcomeText p{
     font-size: 20px;
-
+    font-weight: normal;
+    line-height: 32px;
 }
 
 /**** Welcome to Legal Section END****/

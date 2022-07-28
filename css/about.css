@@ -45,7 +45,7 @@
 
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-gap: 80px; 
+    grid-gap: 40px; 
 
     justify-content: center;
     align-items: center;
@@ -57,11 +57,16 @@
 .teamIntroImage{
     height: 550px;
     text-align: right;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
 
 .teamIntroImage img{
     height: 450px;
-
+    
 }
 
 .teamIntroText{
