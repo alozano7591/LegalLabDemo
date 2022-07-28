@@ -1,0 +1,123 @@
+body{
+    width: 100%; 
+    font-family: sans-serif; 
+}
+
+header{
+    text-align: center;
+    padding: 25px 0;
+}
+
+header img{
+    height: 85px;
+}
+
+.titleHeader{
+    display: grid;
+    grid-template-columns: 1fr 6fr;
+    grid-gap: 40px;
+}
+
+.navLinks ul{
+    list-style-type: none;
+}
+
+.navLinks ul li{
+    display: inline-block;
+    position: relative;
+
+}
+
+.navLinks ul li a{
+    padding: 10px 40px;
+    display: inline-block;          /* add to help with vertical padding*/
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+main{
+    width: 100%;
+}
+
+/**** Hero Section ****/
+
+.homeHero{
+    position: relative; /* to make this div the relative ancestor of .herotext */
+    text-align: right; /* to center all the content in .hero */
+}
+
+.homeHero img{
+    width: 100%;
+    height: 900px;
+    object-fit: cover;
+    object-position: left bottom;
+}
+
+.heroTextContainer{
+    position: absolute; /* make .herotext content sit in a separate layer over the image */
+    
+    /* make .herotext cover the entire area */
+    top: 0; 
+    bottom: 0; 
+    left: 0; 
+    right: 0; 
+    
+    background-color: rgba(31, 31, 31, 0.5); 
+    padding: 20px; 
+    color:whitesmoke; 
+
+}
+
+.herotext h2{
+    font-size: 75px;
+    text-align: right;
+    font-weight: bold; /* make the text bold */
+}
+
+.herotext p{
+    font-size: 20px;
+    line-height: 40px;
+
+}
+
+/**** Hero Section END ****/
+
+
+/**** Footer Section ****/
+
+footer{
+    color: white;
+    background-color:rgb(27, 30, 35);
+    
+    padding: 55px 0;
+
+    text-align: center;
+
+    display: grid;
+    grid-gap: 0 10px;
+    grid-template-columns: 1fr 1fr 1fr;
+
+    justify-content: center;
+    /* align-items: center; */
+}
+
+.footerLogo img{
+
+    height: 120px;
+}
+
+.footerContact{
+    line-height: 10px;
+}
+
+.footerConnect h2{
+    font-weight: bold;
+}
+
+.footerConnect img{
+    height: 50px;
+}
+
+/**** Practice Section END****/

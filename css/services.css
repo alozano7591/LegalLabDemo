@@ -1,0 +1,137 @@
+/**** Hero Section ****/
+
+.hero{
+    position: relative; /* to make this div the relative ancestor of .herotext */
+    text-align: right; /* to center all the content in .hero */
+}
+
+.hero img{
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+    object-position:left bottom;
+}
+
+.heroTextContainer{
+    position: absolute; 
+    top: 0; 
+    bottom: 0; 
+    left: 0; 
+    right: 0; 
+    background-color: rgba(46, 48, 56, 0.5); 
+    padding: 20px; 
+    color:whitesmoke; 
+
+}
+
+.aboutHeroText{
+    text-align:center;
+}
+
+.aboutHeroText h2{
+    font-size: 75px;
+    font-weight: bold; /* make the text bold */
+    line-height: 600px;
+}
+
+
+/**** Hero Section END ****/
+
+
+/**** Welcome to Legal Section ****/
+
+.teamIntro{
+    padding: 100px 0;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 80px; 
+
+    justify-content: center;
+    align-items: center;
+
+    background-color:rgb(233, 233, 233);
+
+}
+
+.teamIntroImage{
+    height: 550px;
+    text-align: right;
+}
+
+.teamIntroImage img{
+    height: 450px;
+
+}
+
+.teamIntroText{
+    width: 75%;
+    line-height: 35px;
+}
+
+.teamIntroText h2{
+    font-size: 40px;
+    color: green;
+    font-weight: bold;
+}
+
+.teamIntroText p{
+    font-size: 20px;
+
+}
+
+/**** Welcome to Legal Section END****/
+
+
+/**** Team Section ****/
+
+.services{
+    text-align: center;
+    padding: 55px 185px;
+}
+
+.services h1{
+    font-size: 70px;
+    font-weight: bold;
+}
+
+.services h3{
+    font-size: 24px;
+    font-style: italic;
+    color: green;
+    line-height: 0;
+}
+
+.serviceItems{
+    /* height: 800px; */
+    
+    /* display: grid;
+    grid-gap: 0 20px;
+    grid-template-columns: 1fr 1fr 1fr; */
+
+
+    display: flex;
+    gap: 35px;
+    margin-top: 20px;
+    flex-wrap: wrap;
+
+    justify-content: center;
+
+}
+
+.serviceItem img{
+    width: 100%;
+}
+
+.serviceItem{
+
+    flex: 450px;
+    max-width: 500px;
+    
+}
+
+.serviceItem p{
+    line-height: 28px;
+}
+
+/**** Practice Section END ****/
