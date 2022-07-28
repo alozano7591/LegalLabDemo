@@ -131,6 +131,8 @@
     padding: 10px;
     flex: 450px;
     max-width: 500px;
+
+    line-height: 28px;
 }
 
 /**** Practice Section END ****/
