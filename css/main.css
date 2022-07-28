@@ -30,7 +30,7 @@ header img{
 
 .navLinks ul li a{
     padding: 10px 40px;
-    display: inline-block;          /* add to help with vertical padding*/
+    display: inline-block;          /*  help with vertical padding*/
     text-decoration: none;
     color: black;
     font-weight: bold;
@@ -44,8 +44,8 @@ main{
 /**** Hero Section ****/
 
 .homeHero{
-    position: relative; /* to make this div the relative ancestor of .herotext */
-    text-align: right; /* to center all the content in .hero */
+    position: relative; 
+    text-align: right; 
 }
 
 .homeHero img{
@@ -56,7 +56,7 @@ main{
 }
 
 .heroTextContainer{
-    position: absolute; /* make .herotext content sit in a separate layer over the image */
+    position: absolute; /* make content sit in a separate layer over the image */
     
     /* make .herotext cover the entire area */
     top: 0; 
@@ -73,7 +73,7 @@ main{
 .herotext h2{
     font-size: 75px;
     text-align: right;
-    font-weight: bold; /* make the text bold */
+    font-weight: bold; 
 }
 
 .herotext p{
