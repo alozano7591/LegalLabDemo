@@ -3,6 +3,7 @@
 .homeHero{
     position: relative; 
     text-align: right; 
+    
 }
 
 .homeHero img{
@@ -21,7 +22,6 @@
     background-color: rgba(31, 31, 31, 0.5); /* add a semi transparent foreground */
     padding: 20px; 
     color:whitesmoke; 
-    font-family: sans-serif; 
 
 }
 

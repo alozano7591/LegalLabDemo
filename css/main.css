@@ -1,15 +1,24 @@
+
+
 body{
     width: 100%; 
     font-family: sans-serif; 
+    font-family: 'Poppins', sans-serif;
 }
 
 header{
     text-align: center;
     padding: 25px 0;
+    margin:auto;
+    width: 1200px;
 }
 
 header img{
     height: 85px;
+}
+
+header img:hover{
+    cursor: pointer;
 }
 
 .titleHeader{
@@ -34,7 +43,15 @@ header img{
     text-decoration: none;
     color: black;
     font-weight: bold;
-    font-size: 30px;
+    /* font-size: 30px; */
+    font-size: larger;
+    font-weight: 400;
+}
+
+nav a:hover{
+    color: rgb(247, 0, 0);
+    font-style: italic;
+    font-size: 50px;
 }
 
 main{
