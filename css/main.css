@@ -165,4 +165,38 @@ footer{
     margin: 15px;
 }
 
-/**** Practice Section END****/
+/**** reactive section still in progress END****/
+
+@media only screen and (max-width: 600px) {
+
+    /* Add responsive CSS here */
+
+    header{
+        width: 100%;
+    }
+
+    .titleHeader{
+        width: 100%;
+        display: inline;
+        padding: auto;
+    }
+
+    .navLinks ul{
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-gap: 0;
+
+    }
+
+    .navLinks ul li{
+        padding: 0;
+
+    }
+
+    .navLinks ul li a{
+        padding: 0;
+        font-size: 16px;
+    }
+
+}

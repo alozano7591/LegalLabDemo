@@ -41,16 +41,16 @@
 
 /**** Team Section ****/
 
-.services{
+.servicesSect{
     text-align: center;
     padding: 55px 185px;
 }
 
-.services h1{
+.servicesSect h1{
     font-size: 70px;
 }
 
-.services h3{
+.servicesSect h3{
     font-size: 24px;
     font-style: italic;
     color: green;
