@@ -98,7 +98,7 @@
 
 .ourTeam h1{
     font-size: 70px;
-    font-weight: bold;
+    font-weight: normal;
 }
 
 .ourTeam h3{
@@ -138,6 +138,10 @@
     max-width: 500px;
 
     line-height: 28px;
+}
+
+.ourTeamItem h2{
+    color: green;
 }
 
 /**** Practice Section END ****/

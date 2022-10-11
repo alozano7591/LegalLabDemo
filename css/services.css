@@ -38,50 +38,6 @@
 /**** Hero Section END ****/
 
 
-/**** Welcome to Legal Section ****/
-
-.teamIntro{
-    padding: 100px 0;
-
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 80px; 
-
-    justify-content: center;
-    align-items: center;
-
-    background-color:rgb(233, 233, 233);
-
-}
-
-.teamIntroImage{
-    height: 550px;
-    text-align: right;
-}
-
-.teamIntroImage img{
-    height: 450px;
-
-}
-
-.teamIntroText{
-    width: 75%;
-    line-height: 35px;
-}
-
-.teamIntroText h2{
-    font-size: 40px;
-    color: green;
-    font-weight: bold;
-}
-
-.teamIntroText p{
-    font-size: 20px;
-
-}
-
-/**** Welcome to Legal Section END****/
-
 
 /**** Team Section ****/
 
@@ -92,7 +48,6 @@
 
 .services h1{
     font-size: 70px;
-    font-weight: bold;
 }
 
 .services h3{

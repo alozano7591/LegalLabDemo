@@ -1,5 +1,11 @@
 /**** Hero Section ****/
 
+img{
+    max-height: 100%;
+}
+
+
+
 .homeHero{
     position: relative; 
     text-align: right; 
@@ -100,8 +106,9 @@
 }
 
 .welcomeImage{
-    text-align: right;
-
+    text-align: center;
+    height: 500px;
+    
 }
 
 .welcomeText{
@@ -113,7 +120,7 @@
 .welcomeText h2{
     font-size: 40px;
     color: green;
-    font-weight: bold;
+
 }
 
 .welcomeText p{
@@ -128,13 +135,12 @@
 
 .practiceAreas{
     text-align: center;
-    
     padding: 55px 185px;
 }
 
 .practiceAreas h1{
     font-size: 70px;
-    font-weight: bold;
+
 }
 
 .practiceAreas h3{

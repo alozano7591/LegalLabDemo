@@ -92,13 +92,12 @@
 
 .contactSection h1{
     font-size: 45px;
-    font-weight: 540;
 }
 
 .contactSection h3{
     font-size: 18px;
     color:rgb(49, 49, 49); 
-    font-weight: lighter;
+    font-weight:400;
     line-height: 0;
 }
 
@@ -141,3 +140,17 @@
 }
 
 /**** Practice Section END ****/
+
+/******* Locations ******/
+
+.locations{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 40px; 
+
+    justify-content: center;
+    align-items: center;
+}
+
+
+/******** end locations ********/
