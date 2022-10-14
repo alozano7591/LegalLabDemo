@@ -135,7 +135,7 @@ img{
 
 .testimonialsSect{
     position: relative; 
-    height: 600px;
+    height: 650px;
     
     color:whitesmoke; 
     text-align: center;
@@ -158,13 +158,43 @@ img{
     right: 0; 
 }
 
+.testBlock{
+    position: absolute;
+    background-color: rgba(3, 3, 3, 0.5); 
+    top: 80px; 
+    bottom: 80px; 
+    left: 350px; 
+    right: 350px;  
+}
+
+/* .testimonialTitleText{
+    position: absolute;
+    top: 0px;
+    left: 50%;
+    font-size: larger;
+    transform: translate(-50%, 0);
+} */
+
 .testimonialTitleText{
     position: absolute;
-    top: 120px;
+    top: 0px;
     left: 50%;
     font-size: larger;
     transform: translate(-50%, 0);
 }
+
+.testimonialTitleText h1{
+    font-size: 70px;
+}
+
+/* .testimonialBlock{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: large;
+    background-color: rgba(3, 3, 3, 0.562); 
+} */
 
 .testimonialBlock{
     position: absolute;
@@ -172,13 +202,22 @@ img{
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: large;
-    background-color: rgba(3, 3, 3, 0.562); 
+    width: 90%;
+}
+
+.testimonialText{
+    font-style: italic;
+}
+
+.testimonialClient{
+    font-weight: bold;
 }
 
 .testimonialButton{
     position: absolute;
     position: absolute;
-    bottom: 80px;
+    /* bottom: 80px; */
+     bottom: 40px;
     left: 50%;
     transform: translate(-50%, 0); 
 
