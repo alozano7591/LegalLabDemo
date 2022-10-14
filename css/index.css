@@ -160,7 +160,7 @@ img{
 
 .testBlock{
     position: absolute;
-    background-color: rgba(3, 3, 3, 0.5); 
+    background-color: rgba(3, 3, 3, 0.5);  
     top: 80px; 
     bottom: 80px; 
     left: 350px; 
