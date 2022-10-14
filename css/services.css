@@ -9,7 +9,7 @@
     width: 100%;
     height: 600px;
     object-fit: cover;
-    object-position:left bottom;
+    object-position:center;
 }
 
 .heroTextContainer{
