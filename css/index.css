@@ -131,6 +131,77 @@ img{
 
 /**** Welcome to Legal Section END****/
 
+/***** Testimonials Section **********/
+
+.testimonialsSect{
+    position: relative; 
+    height: 600px;
+    
+    color:whitesmoke; 
+    text-align: center;
+
+} 
+
+.testimonialsSect img{
+    height: 100%;
+    width: 100%;
+    object-position: center;
+    object-fit: cover;
+}
+
+.testimonialsContainer{
+    position: absolute;
+    background-color: rgba(3, 3, 3, 0.5); 
+    top: 0; 
+    bottom: 0; 
+    left: 0; 
+    right: 0; 
+}
+
+.testimonialTitleText{
+    position: absolute;
+    top: 120px;
+    left: 50%;
+    font-size: larger;
+    transform: translate(-50%, 0);
+}
+
+.testimonialBlock{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: large;
+    background-color: rgba(3, 3, 3, 0.562); 
+}
+
+.testimonialButton{
+    position: absolute;
+    position: absolute;
+    bottom: 80px;
+    left: 50%;
+    transform: translate(-50%, 0); 
+
+    color: white; 
+	display: inline-block; 
+	width: 120px; 
+	font-size: 20px; 
+    font-weight: bold;
+	border: 5px solid white; 
+	text-decoration: none; 
+	padding: 20px 70px; 
+
+    text-align: center;
+}
+
+.testimonialButton:hover{
+    font-size: 25px;
+}
+
+
+ 
+/******** Testimonial Title Text ************/
+
 /**** Practice Section ****/
 
 .practiceAreas{
