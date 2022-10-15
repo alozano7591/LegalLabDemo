@@ -213,6 +213,11 @@ img{
     font-weight: bold;
 }
 
+.starRating{
+    color:gold;
+    font-size: larger;
+}
+
 .testimonialButton{
     position: absolute;
     position: absolute;
