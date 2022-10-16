@@ -33,7 +33,7 @@
 
 .aboutHeroText h2{
     font-size: 75px;
-    font-weight: bold; /* make the text bold */
+    font-weight: bold; 
     line-height: 600px;
 }
 
@@ -58,13 +58,6 @@
 }
 
 .teamIntroImage{
-    /* height: 550px;
-    text-align: right;
-
-    display: flex;
-    justify-content: center;
-    align-items: center; */
-
     text-align: center;
 
 }
@@ -115,12 +108,6 @@
 }
 
 .ourTeamItems{
-    /* height: 800px; */
-    
-    /* display: grid;
-    grid-gap: 0 20px;
-    grid-template-columns: 1fr 1fr 1fr; */
-
 
     display: flex;
     gap: 20px;

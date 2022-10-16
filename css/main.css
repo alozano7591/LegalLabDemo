@@ -50,7 +50,7 @@ header img:hover{
 
 .navLinks ul li a{
     padding: 10px 40px;
-    display: inline-block;          /*  help with vertical padding*/
+    display: inline-block;          
     text-decoration: none;
     color: rgb(0, 128, 0);
     /* font-size: 30px; */
@@ -255,7 +255,11 @@ footer{
 
     .socialMediaLinks a{
         margin: 15px;
+        text-decoration: none;
+    }
 
+    .socialMediaLinks{
+        text-decoration: none;
     }
 
     /**** Footer Section END****/
