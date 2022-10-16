@@ -63,6 +63,8 @@ nav ul li a:hover{
     text-decoration: underline;
 }
 
+
+
 main{
     width: 100%;
 }
@@ -167,18 +169,6 @@ footer{
     /**** Footer Section ****/
 
     footer{
-        /* color: white;
-        background-color:rgb(27, 30, 35);
-        
-        padding: 55px 0;
-
-        text-align: center;
-
-        display: grid;
-        grid-gap: 0 10px;
-        grid-template-columns: 1fr 1fr 1fr;
-
-        justify-content: center; */
         
         padding: 55px 0;
 
