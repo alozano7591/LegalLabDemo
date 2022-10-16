@@ -296,6 +296,41 @@ img{
 
 @media only screen and (max-width: 1150px){
 
+
+    .heroTextContainer{
+        position: absolute; 
+        top: 0; 
+        bottom: 0; 
+        left: 0; 
+        right: 0; 
+        background-color: rgba(31, 31, 31, 0.5); 
+        color:whitesmoke; 
+        padding: 0;
+    
+    }
+
+    .herotext{
+        top: 0; 
+        bottom: 0; 
+        left: 0; 
+        right: 0; 
+        text-align:center;
+        width: 100%;
+    }
+
+    .herotext h2{
+
+        /* line-height: 42px; */
+        text-align:center;
+        font-size: 60px;
+    }
+
+    .herotext p{
+        font-size: 26px;
+        line-height: 40px;
+    
+    }
+
     .welcomeToLegal{
         display:block;
  
