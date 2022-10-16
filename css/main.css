@@ -23,6 +23,7 @@ header{
 
 header img{
     height: 85px;
+    padding: 15px;
 }
 
 header img:hover{
@@ -37,6 +38,7 @@ header img:hover{
 
 .navLinks ul{
     list-style-type: none;
+    padding: 0;
 }
 
 .navLinks ul li{
@@ -64,49 +66,6 @@ nav ul li a:hover{
 main{
     width: 100%;
 }
-
-/**** Hero Section ****/
-
-.homeHero{
-    position: relative; 
-    text-align: right; 
-}
-
-.homeHero img{
-    width: 100%;
-    height: 900px;
-    object-fit: cover;
-    object-position: left bottom;
-}
-
-.heroTextContainer{
-    position: absolute; /* make content sit in a separate layer over the image */
-    
-    /* make .herotext cover the entire area */
-    top: 0; 
-    bottom: 0; 
-    left: 0; 
-    right: 0; 
-    
-    background-color: rgba(31, 31, 31, 0.5); 
-    padding: 20px; 
-    color:whitesmoke; 
-
-}
-
-.herotext h2{
-    font-size: 75px;
-    text-align: right;
-    font-weight: bold; 
-}
-
-.herotext p{
-    font-size: 20px;
-    line-height: 40px;
-
-}
-
-/**** Hero Section END ****/
 
 
 /**** Footer Section ****/
@@ -181,15 +140,12 @@ footer{
         padding: auto;
     }
 
+    /**** Start Nav ****/ 
     .navLinks ul{
         width: 100%;
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
         grid-gap: 0;
-
-    }
-
-    .navLinks ul li{
         padding: 0;
 
     }
@@ -198,5 +154,80 @@ footer{
         padding: 0;
         font-size: 16px;
     }
+    /**** END Nav ****/ 
+
+    /**** Start Hero ****/ 
+    .homeHero{
+        position: relative; 
+        text-align: right; 
+    }
+
+    /**** End Hero ****/ 
+
+    /**** Footer Section ****/
+
+    footer{
+        /* color: white;
+        background-color:rgb(27, 30, 35);
+        
+        padding: 55px 0;
+
+        text-align: center;
+
+        display: grid;
+        grid-gap: 0 10px;
+        grid-template-columns: 1fr 1fr 1fr;
+
+        justify-content: center; */
+        
+        padding: 55px 0;
+
+        text-align: center;
+
+        display:block;
+
+        
+    }
+
+    .footerLogo img{
+
+        height: 120px;
+    }
+
+    .footerContact{
+        line-height: 10px;
+    }
+
+    .footerConnect h2{
+        font-weight: bold;
+    }
+
+    .footerConnect img{
+        height: 50px;
+    }
+
+    .footerLocations{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 40px; 
+
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .socialMediaLinks{
+
+
+        justify-content: center;
+        align-items: center;
+    }
+
+    .socialMediaLinks a{
+        margin: 15px;
+
+    }
+
+    /**** Footer Section END****/
 
 }
