@@ -16,9 +16,9 @@ h2{
 
 header{
     text-align: center;
-    padding: 25px 0;
+    padding: 25px 150px;
     margin:auto;
-    width: 1200px;
+    max-width: 1200px;
 }
 
 header img{
@@ -128,12 +128,23 @@ footer{
 
 /**** reactive section still in progress END****/
 
+@media only screen and (max-width: 1000px){
+
+    header{
+        width: 100%;
+        background-color: aqua;
+    }
+
+}
+
+
 @media only screen and (max-width: 600px) {
 
     /* Add responsive CSS here */
 
     header{
         width: 100%;
+        padding: 25px 0;
     }
 
     .titleHeader{
