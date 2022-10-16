@@ -16,7 +16,7 @@ h2{
 
 header{
     text-align: center;
-    padding: 25px 150px;
+    padding: 25px 100px;
     margin:auto;
     max-width: 1200px;
 }
@@ -39,6 +39,7 @@ header img:hover{
 .navLinks ul{
     list-style-type: none;
     padding: 0;
+    grid-gap: 0;
 }
 
 .navLinks ul li{
@@ -128,11 +129,12 @@ footer{
 
 /**** reactive section still in progress END****/
 
-@media only screen and (max-width: 1000px){
+@media only screen and (max-width: 1150px){
 
     header{
         width: 100%;
-        background-color: aqua;
+        padding: 25px 0;
+        /* background-color:aqua; */
     }
 
 }
@@ -159,7 +161,6 @@ footer{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
         grid-gap: 0;
-        padding: 0;
 
     }
 
