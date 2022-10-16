@@ -179,6 +179,15 @@
 
     /**** Welcome to Legal Section ****/
 
+    .heroTextContainer{
+        padding: 0;
+    }
+
+    .aboutHeroText{
+        width: 100%;
+        padding: 0;
+    }
+
     .teamIntro{
         /* height: 1200px; */
         display:block;
@@ -191,6 +200,8 @@
         background-color:rgb(233, 233, 233);
 
     }
+
+    
 
     .teamIntroImage{
         text-align: center;
