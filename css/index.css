@@ -325,6 +325,31 @@ img{
 
 /**** Practice Section END ****/
 
+@media only screen and (max-width: 1150px){
+
+    .welcomeToLegal{
+        display:block;
+ 
+        padding: 100px 20px;
+
+        justify-content: center;
+        align-items: center;
+
+        
+    }
+
+    .welcomeText{
+        text-align: center;
+        margin: auto;
+    }
+
+    .practiceAreas{
+        text-align: center;
+        padding: 55px 15px;
+    }
+
+}
+
 @media only screen and (max-width: 600px)
 {
 
@@ -347,19 +372,13 @@ img{
         bottom: 0; 
         left: 0; 
         right: 0; 
-        background-color: rgba(31, 31, 31, 0.5); /* add a semi transparent foreground */
+        background-color: rgba(31, 31, 31, 0.5); 
         color:whitesmoke; 
         padding: 0;
     
     }
     
     .herotext{
-        /* position: absolute;
-        bottom: 300px;
-        right: 200px;
-        text-align: right;
-        width: 800px;
-        height: 450px; */
 
         top: 0; 
         bottom: 0; 
@@ -370,9 +389,6 @@ img{
     }
 
     .herotext h2{
-        /* font-size: 75px;
-        text-align: right;
-        font-weight: bold; */
 
         line-height: 42px;
         text-align:center;
@@ -384,15 +400,13 @@ img{
         line-height: 30px;
     
     }
-    
-
 
     /*** Hero Sect END ***/
 
     /**** Welcome to Legal Section ****/
 
     .welcomeToLegal{
-        
+
         display:block;
  
         padding: 120px 0px;

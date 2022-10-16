@@ -134,7 +134,33 @@ footer{
     header{
         width: 100%;
         padding: 25px 0;
-        /* background-color:aqua; */
+    }
+
+    .titleHeader{
+        width: 100%;
+        display: inline;
+        padding: auto;
+    }
+
+    /**** Start Nav ****/ 
+    .navLinks ul{
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-gap: 0;
+        padding: 0;
+
+    }
+
+    .footerLocations{
+        display: grid;
+        grid-template-columns: 1fr ;
+        grid-gap: 5px; 
+
+        justify-content: center;
+        align-items: center;
+
+        
     }
 
 }
