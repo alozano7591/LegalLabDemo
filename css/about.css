@@ -74,7 +74,8 @@
 
 .teamIntroText h2{
     font-size: 40px;
-    color: green;
+    /* color: green; */
+    color: black;
     font-weight: bold;
 }
 
@@ -102,7 +103,8 @@
 .ourTeam h3{
     font-size: 18px;
     font-weight: normal;
-    color: green;
+    /* color: green; */
+    color: black;
     font-style: italic;
     line-height: 0;
 }
@@ -134,7 +136,8 @@
 }
 
 .ourTeamItem h2{
-    color: green;
+    /* color: green; */
+    color: black;
 }
 
 /**** Practice Section END ****/
@@ -224,7 +227,6 @@
     .ourTeam h3{
         font-size: 18px;
         font-weight: normal;
-        color: green;
         font-style: italic;
         line-height: 0;
     }
@@ -254,10 +256,6 @@
         max-width: 500px;
 
         line-height: 28px;
-    }
-
-    .ourTeamItem h2{
-        color: green;
     }
 
     /**** Practice Section END ****/

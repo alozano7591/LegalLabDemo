@@ -14,11 +14,17 @@ h2{
     font-weight: normal;
 }
 
+hr.solidLine{
+    width: 300px;
+    border-top: 8px solid black;
+}
+
 header{
     text-align: center;
     padding: 25px 100px;
     margin:auto;
-    max-width: 1200px;
+    /* max-width: 1200px; */
+    max-width: 100%;
 }
 
 header img{
@@ -36,10 +42,15 @@ header img:hover{
     grid-gap: 40px;
 }
 
+nav{
+    margin: auto;
+}
+
 .navLinks ul{
     list-style-type: none;
     padding: 0;
     grid-gap: 0;
+
 }
 
 .navLinks ul li{
@@ -52,7 +63,9 @@ header img:hover{
     padding: 10px 40px;
     display: inline-block;          
     text-decoration: none;
-    color: rgb(0, 128, 0);
+    /* color: rgb(0, 128, 0); */
+    color:black;
+
     /* font-size: 30px; */
     font-size: x-large;
     font-weight: 400;
@@ -63,8 +76,6 @@ nav ul li a:hover{
     font-style: italic;
     text-decoration: underline;
 }
-
-
 
 main{
     width: 100%;

@@ -57,7 +57,8 @@
 .servicesSect h3{
     font-size: 24px;
     font-style: italic;
-    color: green;
+    /* color: green; */
+    color: black;
     line-height: 0;
 }
 
