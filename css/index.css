@@ -1,6 +1,18 @@
+/*
+    font-family: 'Lato', sans-serif;
+
+    font-family: 'Montserrat', sans-serif;
+
+    font-family: 'Open Sans', sans-serif;
+
+    font-family: 'Roboto', sans-serif;
+    */
+
 .navLinks ul li a{
-    /* font-family: 'Open Sans', sans-serif;  */
-    
+    font-family: 'Open Sans', sans-serif; 
+    /* font-family: 'Roboto', sans-serif; */
+    /* font-family: 'Montserrat', sans-serif; */
+    /* font-family: 'Lato', sans-serif; */
 }
 
 /**** Hero Section ****/
@@ -44,6 +56,11 @@ img{
     text-align: right;
     width: 850px;
     height: 450px;
+
+    /* font-family: 'Open Sans', sans-serif;  */
+    /* font-family:'Roboto', sans-serif; */
+    /* font-family: 'Montserrat', sans-serif; */
+    /* font-family: 'Lato', sans-serif; */
 }
 
 .herotext h2{
@@ -61,7 +78,7 @@ img{
 .learnButton{
     color: white; 
 	display: inline-block; 
-	width: 120px; 
+	width: 130px; 
 	font-size: 20px; 
     font-weight: bold;
 	border: 5px solid white; 

@@ -3,7 +3,8 @@
 body{
     width: 100%; 
     font-family: sans-serif; 
-    font-family: 'Poppins', sans-serif;
+    /* font-family: 'Poppins', sans-serif; */
+    font-family: 'Open Sans', sans-serif; 
 }
 
 h1{
@@ -25,6 +26,8 @@ header{
     margin:auto;
     /* max-width: 1200px; */
     max-width: 100%;
+
+    /* background-color: bisque; */
 }
 
 header img{
@@ -44,13 +47,19 @@ header img:hover{
 
 nav{
     margin: auto;
+    /* background-color: gray; */
+    width: 80%;
 }
 
 .navLinks ul{
     list-style-type: none;
-    padding: 0;
-    grid-gap: 0;
+    padding: 0 5px;
+    /* background-color: aliceblue; */
 
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    /* grid-gap: 0px; */
+    
 }
 
 .navLinks ul li{
@@ -69,6 +78,11 @@ nav{
     /* font-size: 30px; */
     font-size: x-large;
     font-weight: 400;
+
+    /* font-family: 'Open Sans', sans-serif;  */
+    font-family: 'Roboto', sans-serif;
+    /* font-family: 'Montserrat', sans-serif; */
+    /* font-family: 'Lato', sans-serif; */
 }
 
 nav ul li a:hover{
