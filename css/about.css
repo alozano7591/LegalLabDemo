@@ -133,6 +133,8 @@
     max-width: 500px;
 
     line-height: 28px;
+
+    min-height: 450px;
 }
 
 .ourTeamItem h2{
@@ -206,7 +208,6 @@
         width: 100%;
 
         text-align: center;
-        /* background-color:coral; */
     }
 
     /**** Welcome to Legal Section END****/

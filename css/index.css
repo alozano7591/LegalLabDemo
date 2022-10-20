@@ -1,19 +1,7 @@
-/*
-    font-family: 'Lato', sans-serif;
-
-    font-family: 'Montserrat', sans-serif;
-
-    font-family: 'Open Sans', sans-serif;
-
-    font-family: 'Roboto', sans-serif;
-    */
-
-.navLinks ul li a{
-    /* font-family: 'Open Sans', sans-serif;  */
-    /* font-family: 'Roboto', sans-serif; */
-    /* font-family: 'Montserrat', sans-serif; */
-    /* font-family: 'Lato', sans-serif; */
-}
+/* font-family: 'Open Sans', sans-serif;  */
+/* font-family: 'Roboto', sans-serif; */
+/* font-family: 'Montserrat', sans-serif; */
+/* font-family: 'Lato', sans-serif; */
 
 /**** Hero Section ****/
 
@@ -43,7 +31,7 @@ img{
     bottom: 0; 
     left: 0; 
     right: 0; 
-    background-color: rgba(31, 31, 31, 0.5); /* add a semi transparent foreground */
+    background-color: rgba(31, 31, 31, 0.5); 
     padding: 20px; 
     color:whitesmoke; 
 
