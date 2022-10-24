@@ -121,10 +121,16 @@
 }
 
 .ourTeamItem img{
-    width: 100%;
+    width: 80%;
 
-    height: 620px;
+    height: 400px;
     object-fit: cover;
+    object-position: top;
+}
+
+/** fixes Jennifer's picture positioning **/
+.ourTeamItem:first-child img{
+    object-position: center;
 }
 
 .ourTeamItem{
