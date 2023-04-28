@@ -73,8 +73,6 @@
     justify-content: center;
     align-items: center;
 
-    
-
 }
 
 .locSect{
@@ -95,33 +93,42 @@
     
     padding: 20px;
 
+    /* There used to be another section, testing out without image */
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 3fr 1fr;
     grid-gap: 0px;
 
     justify-content: center;
     align-items: center;
 }
 
+
 .contactItem .contactInfo{
     text-align: left;
     padding: 0 0px 0px 25px ;
 }
 
+/*
 .contactItem img{
     width: 100%;
 }
 
-.contactItem2{
-    margin: auto;
-    /* flex: 450px; */
 
-    /* max-width: 500px; */
-    width: 500px;
-
-    border: 1px solid rgb(197, 197, 197);
-    box-shadow: 10px 10px 10px 10px #888888;
+.contactH4, .contactIcon{
+    display: inline-block;
 }
+*/
+
+/*Using table for contact card info because it makes things line up easier and nicely*/
+.contactCardTable{
+    width: 100%;
+}
+.contactCardTable h4{
+    text-align: left;
+    padding: 0px;
+    line-height: 1px;
+}
+
 
 .contactItem h4{
 
@@ -130,9 +137,11 @@
     /* line-height: 0; */
 }
 
+/*
 .contactItem p{
     line-height: 24px;
 }
+*/
 
 /**** Contact Section END ****/
 
