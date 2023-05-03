@@ -94,9 +94,11 @@
     padding: 20px;
 
     /* There used to be another section, testing out without image */
+    /*
     display: grid;
     grid-template-columns: 3fr 1fr;
     grid-gap: 0px;
+    */
 
     justify-content: center;
     align-items: center;
