@@ -41,8 +41,6 @@
 
 /**** Hero Section END ****/
 
-
-
 /**** Contact Section ****/
 
 .contactSection{
@@ -60,7 +58,7 @@
     font-size: 18px;
     color:rgb(49, 49, 49); 
     font-weight:400;
-    line-height: 0;
+    line-height: 18px;
 }
 
 .contacts{
@@ -83,10 +81,12 @@
 
 .contactItem{
     margin: auto;
+    position: relative;
     /* flex: 450px; */
 
     /* max-width: 500px; */
     width: 500px;
+    height: 220px;
 
     border: 1px solid rgb(197, 197, 197);
     box-shadow: 10px 10px 10px 10px #888888;
@@ -107,17 +107,19 @@
 
 .contactItem .contactInfo{
     text-align: left;
+    overflow-wrap:break-word;
     padding: 0 0px 0px 25px ;
+}
+
+.contactCardTable{
+    position: absolute;
+    bottom: 25px;
+    left: 40px;
 }
 
 /*
 .contactItem img{
     width: 100%;
-}
-
-
-.contactH4, .contactIcon{
-    display: inline-block;
 }
 */
 
@@ -138,12 +140,6 @@
     color: black;
     /* line-height: 0; */
 }
-
-/*
-.contactItem p{
-    line-height: 24px;
-}
-*/
 
 /**** Contact Section END ****/
 
