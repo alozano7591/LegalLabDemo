@@ -93,13 +93,6 @@
     
     padding: 20px;
 
-    /* There used to be another section, testing out without image */
-    /*
-    display: grid;
-    grid-template-columns: 3fr 1fr;
-    grid-gap: 0px;
-    */
-
     justify-content: center;
     align-items: center;
 }
@@ -116,12 +109,6 @@
     bottom: 25px;
     left: 40px;
 }
-
-/*
-.contactItem img{
-    width: 100%;
-}
-*/
 
 /*Using table for contact card info because it makes things line up easier and nicely*/
 .contactCardTable{
@@ -185,8 +172,6 @@
         flex-wrap: wrap;
     
         justify-content: center;
-    
-        
 
     }
 
