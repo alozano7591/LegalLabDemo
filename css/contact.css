@@ -44,29 +44,46 @@
 /**** Contact Section ****/
 
 .contactSection{
+
     text-align: center;
     padding: 55px 185px;
 
     justify-content: center;
+    
 }
 
 .contactSection h1{
+
     font-size: 40px;
+
 }
 
 .contactSection h3{
+
     font-size: 18px;
     color:rgb(49, 49, 49); 
     font-weight:400;
     line-height: 18px;
+
 }
 
 .contacts{
 
     /* padding: 80px 0; */
+    /*
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 40px;
+    */
+
+    width: 100%;
+    
+    display: flex;
+    flex-wrap: wrap;
+    grid-gap: 50px 30px;
+    padding: 0;
+    margin: 0;
+    
 
     justify-content: center;
     align-items: center;
@@ -84,9 +101,12 @@
     position: relative;
     /* flex: 450px; */
 
+    border-radius: 25px;
+
     /* max-width: 500px; */
-    width: 500px;
+    width: 280px;
     height: 220px;
+    min-width: 200px;
 
     border: 1px solid rgb(197, 197, 197);
     box-shadow: 10px 10px 10px 10px #888888;
@@ -108,12 +128,9 @@
     position: absolute;
     bottom: 25px;
     left: 40px;
-}
-
-/*Using table for contact card info because it makes things line up easier and nicely*/
-.contactCardTable{
     width: 100%;
 }
+
 .contactCardTable h4{
     text-align: left;
     padding: 0px;
